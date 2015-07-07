@@ -1,0 +1,61 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="s09-s-18-artists.json"
+subgraph cluster_0 {
+label="1-correct model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E39_Actor1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E67_Birth1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E69_Death1"];
+n5[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n6[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span1"];
+n7[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span2"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="Death_URI"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="artist_appellation_uri"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="deathValue"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="birthValue"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="values"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="values"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="Birth_URI"];
+n15[shape="plaintext",style="filled",fillcolor="gold",label="artist_uri"];
+}
+subgraph cluster_1 {
+label="candidate 0\nlink coherence:0.0\nnode coherence:0.0\nconfidence:1.0\nmapping score:0.38095238095238093\ncost:1100.03\n-precision:0.0-recall:0.0"
+n17[style="filled",color="white",fillcolor="lightgray",label="E39_Actor1"];
+n18[shape="plaintext",style="filled",fillcolor="gold",label="values\n[E39_Actor,P3_has_note,0.52]\n[E22_Man-Made_Object,P3_has_note,0.171]\n[E73_Information_Object,P3_has_note,0.169]\n[E33_Linguistic_Object,P3_has_note,0.139]"];
+n19[shape="plaintext",style="filled",fillcolor="gold",label="artist_uri\n[E39_Actor,classLink,0.404]\n[E67_Birth,classLink,0.21]\n[E82_Actor_Appellation,classLink,0.194]\n[E38_Image,classLink,0.192]"];
+n20[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span1"];
+n21[shape="plaintext",style="filled",fillcolor="gold",label="deathValue\n[E52_Time-Span,P82_at_some_time_within,0.32]\n[E52_Time-Span,P82b_end_of_the_end,0.298]\n[E69_Death,P82_at_some_time_within,0.193]\n[E34_Inscription,P3_has_note,0.189]"];
+n22[style="filled",color="white",fillcolor="lightgray",label="E67_Birth1"];
+n23[shape="plaintext",style="filled",fillcolor="gold",label="Birth_URI\n[E67_Birth,classLink,0.59]\n[E39_Actor,classLink,0.186]\n[E69_Death,classLink,0.113]\n[E38_Image,classLink,0.111]"];
+n24[style="filled",color="white",fillcolor="lightgray",label="E69_Death1"];
+n25[shape="plaintext",style="filled",fillcolor="gold",label="Death_URI\n[E69_Death,classLink,0.52]\n[E39_Actor,classLink,0.204]\n[E67_Birth,classLink,0.154]\n[E38_Image,classLink,0.122]"];
+n26[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n27[shape="plaintext",style="filled",fillcolor="gold",label="artist_appellation_uri\n[E82_Actor_Appellation,classLink,0.739]\n[E21_Person,classLink,0.105]\n[E39_Actor,classLink,0.097]\n[E67_Birth,classLink,0.06]"];
+n28[shape="plaintext",style="filled",fillcolor="gold",label="values\n[E82_Actor_Appellation,label,0.644]\n[E39_Actor,P3_has_note,0.176]\n[E78_Collection,label,0.1]\n[E78_Collection,classLink,0.08]"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P98i_was_born"]
+n2 -> n4[color="brown",fontcolor="black",label="P100i_died_in"]
+n2 -> n5[color="brown",fontcolor="black",label="P131_is_identified_by"]
+n3 -> n6[color="brown",fontcolor="black",label="P4_has_time-span"]
+n4 -> n7[color="brown",fontcolor="black",label="P4_has_time-span"]
+n4 -> n8[color="brown",fontcolor="black",label="classLink"]
+n5 -> n9[color="brown",fontcolor="black",label="classLink"]
+n7 -> n10[color="brown",fontcolor="black",label="P82_at_some_time_within"]
+n6 -> n11[color="brown",fontcolor="black",label="P82_at_some_time_within"]
+n2 -> n12[color="brown",fontcolor="black",label="P3_has_note"]
+n5 -> n13[color="brown",fontcolor="black",label="label"]
+n3 -> n14[color="brown",fontcolor="black",label="classLink"]
+n2 -> n15[color="brown",fontcolor="black",label="classLink"]
+n17 -> n18[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n17 -> n19[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n20 -> n21[color="brown",fontcolor="black",label="P82_at_some_time_within\nw=100.0"]
+n22 -> n23[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n24 -> n25[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n26 -> n27[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n26 -> n28[color="brown",fontcolor="black",label="label\nw=100.0"]
+n20 -> n24[color="brown",fontcolor="black",label="P4i_is_time-span_of\nw=100.01"]
+n22 -> n17[color="brown",fontcolor="black",label="P11_had_participant\nw=100.01"]
+n24 -> n17[color="brown",fontcolor="black",label="P93_took_out_of_existence\nw=100.01"]
+n26 -> n17[color="brown",fontcolor="black",label="P131i_identifies\nw=100.0"]
+}

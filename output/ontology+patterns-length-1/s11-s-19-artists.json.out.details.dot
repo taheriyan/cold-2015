@@ -1,0 +1,309 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="s11-s-19-artists.json"
+subgraph cluster_0 {
+label="1-correct model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E21_Person1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n5[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n6[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="long_biography"];
+n9[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object2"];
+n10[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="occupation"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri"];
+n15[shape="plaintext",style="filled",fillcolor="gold",label="nationality"];
+n16[shape="plaintext",style="filled",fillcolor="gold",label="artist_name"];
+}
+subgraph cluster_1 {
+label="candidate 0\nlink coherence:0.09090909090909091\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:803.002187\n-precision:0.2-recall:0.17"
+n18[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n19[style="filled",color="white",fillcolor="lightgray",label="E39_Actor1"];
+n20[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n21[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n22[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n23[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation2"];
+n24[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n25[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n26[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n27[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n28[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n29[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+subgraph cluster_2 {
+label="candidate 1\nlink coherence:0.09090909090909091\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:803.012136\n-precision:0.6-recall:0.5"
+n31[style="filled",color="white",fillcolor="lightgray",label="E21_Person1"];
+n32[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n33[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n34[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n35[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n36[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation2"];
+n37[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n38[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n39[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n40[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n41[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n42[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+subgraph cluster_3 {
+label="candidate 2\nlink coherence:0.09090909090909091\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:803.012189\n-precision:0.2-recall:0.17"
+n44[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n45[style="filled",color="white",fillcolor="lightgray",label="E39_Actor1"];
+n46[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n47[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n48[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n49[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation2"];
+n50[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n51[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n52[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n53[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n54[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n55[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+subgraph cluster_4 {
+label="candidate 3\nlink coherence:0.09090909090909091\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:803.018113\n-precision:0.2-recall:0.17"
+n57[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n58[style="filled",color="white",fillcolor="lightgray",label="E40_Legal_Body1"];
+n59[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n60[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n61[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n62[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation2"];
+n63[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n64[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n65[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n66[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n67[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n68[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+subgraph cluster_5 {
+label="candidate 4\nlink coherence:0.08333333333333333\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:803.985068\n-precision:0.0-recall:0.0"
+n70[style="filled",color="white",fillcolor="lightgray",label="E40_Legal_Body1"];
+n71[style="filled",color="white",fillcolor="lightgray",label="E63_Beginning_of_Existence1"];
+n72[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n73[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n74[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n75[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n76[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n77[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n78[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n79[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n80[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n81[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n82[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+subgraph cluster_6 {
+label="candidate 5\nlink coherence:0.08333333333333333\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:803.985558\n-precision:0.0-recall:0.0"
+n84[style="filled",color="white",fillcolor="lightgray",label="E40_Legal_Body1"];
+n85[style="filled",color="white",fillcolor="lightgray",label="E63_Beginning_of_Existence1"];
+n86[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n87[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n88[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n89[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n90[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n91[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n92[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n93[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n94[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n95[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n96[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+subgraph cluster_7 {
+label="candidate 6\nlink coherence:0.08333333333333333\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:803.990847\n-precision:0.33-recall:0.33"
+n98[style="filled",color="white",fillcolor="lightgray",label="E21_Person1"];
+n99[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n100[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n101[style="filled",color="white",fillcolor="lightgray",label="E38_Image1"];
+n102[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n103[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n104[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n105[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n106[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n107[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n108[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n109[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n110[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+subgraph cluster_8 {
+label="candidate 7\nlink coherence:0.08333333333333333\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:803.991212\n-precision:0.0-recall:0.0"
+n112[style="filled",color="white",fillcolor="lightgray",label="E38_Image1"];
+n113[style="filled",color="white",fillcolor="lightgray",label="E39_Actor1"];
+n114[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n115[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n116[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n117[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n118[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n119[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n120[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n121[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n122[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n123[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n124[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+subgraph cluster_9 {
+label="candidate 8\nlink coherence:0.08333333333333333\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:803.993393\n-precision:0.0-recall:0.0"
+n126[style="filled",color="white",fillcolor="lightgray",label="E38_Image1"];
+n127[style="filled",color="white",fillcolor="lightgray",label="E39_Actor1"];
+n128[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n129[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n130[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation1"];
+n131[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n132[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n133[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n134[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n135[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n136[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n137[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n138[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+subgraph cluster_10 {
+label="candidate 9\nlink coherence:0.08333333333333333\nnode coherence:0.18181818181818182\nconfidence:1.0\nmapping score:0.4217171717171717\ncost:804.000357\n-precision:0.5-recall:0.5"
+n140[style="filled",color="white",fillcolor="lightgray",label="E21_Person1"];
+n141[style="filled",color="white",fillcolor="lightgray",label="E74_Group1"];
+n142[style="filled",color="white",fillcolor="lightgray",label="E33_Linguistic_Object1"];
+n143[style="filled",color="white",fillcolor="lightgray",label="E39_Actor1"];
+n144[style="filled",color="white",fillcolor="lightgray",label="E55_Type1"];
+n145[style="filled",color="white",fillcolor="lightgray",label="E55_Type2"];
+n146[style="filled",color="white",fillcolor="lightgray",label="E82_Actor_Appellation2"];
+n147[shape="plaintext",style="filled",fillcolor="gold",label="nationality\n[E74_Group,label,0.557]\n[E74_Group,classLink,0.321]\n[E73_Information_Object,P3_has_note,0.066]\n[E33_Linguistic_Object,P3_has_note,0.056]"];
+n148[shape="plaintext",style="filled",fillcolor="gold",label="birth_data_and_place\n[E33_Linguistic_Object,P3_has_note,0.357]\n[E73_Information_Object,P3_has_note,0.262]\n[E22_Man-Made_Object,P3_has_note,0.204]\n[E52_Time-Span,P82_at_some_time_within,0.177]"];
+n149[shape="plaintext",style="filled",fillcolor="gold",label="artist_name\n[E82_Actor_Appellation,label,0.46]\n[E73_Information_Object,P3_has_note,0.227]\n[E33_Linguistic_Object,P3_has_note,0.185]\n[E22_Man-Made_Object,P3_has_note,0.129]"];
+n150[shape="plaintext",style="filled",fillcolor="gold",label="nationality_uri\n[E74_Group,classLink,0.761]\n[E55_Type,classLink,0.106]\n[E57_Material,classLink,0.093]\n[E55_Type,label,0.039]"];
+n151[shape="plaintext",style="filled",fillcolor="gold",label="biography_type_uri\n[E55_Type,classLink,0.696]\n[E74_Group,classLink,0.142]\n[E57_Material,classLink,0.134]\n[E55_Type,label,0.029]"];
+n152[shape="plaintext",style="filled",fillcolor="gold",label="occupation_type_uri\n[E55_Type,classLink,0.7]\n[E74_Group,classLink,0.14]\n[E57_Material,classLink,0.132]\n[E55_Type,label,0.029]"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of"]
+n2 -> n4[color="brown",fontcolor="black",label="P131_is_identified_by"]
+n5 -> n2[color="brown",fontcolor="black",label="P129_is_about"]
+n5 -> n6[color="brown",fontcolor="black",label="P2_has_type"]
+n5 -> n7[color="brown",fontcolor="black",label="P3_has_note"]
+n5 -> n8[color="brown",fontcolor="black",label="P3_has_note"]
+n9 -> n2[color="brown",fontcolor="black",label="P129_is_about"]
+n9 -> n10[color="brown",fontcolor="black",label="P2_has_type"]
+n9 -> n11[color="brown",fontcolor="black",label="P3_has_note"]
+n6 -> n12[color="brown",fontcolor="black",label="classLink"]
+n10 -> n13[color="brown",fontcolor="black",label="classLink"]
+n3 -> n14[color="brown",fontcolor="black",label="classLink"]
+n3 -> n15[color="brown",fontcolor="black",label="label"]
+n4 -> n16[color="brown",fontcolor="black",label="label"]
+n18 -> n19[color="brown",fontcolor="black",label="P129_is_about\nw=0.998223"]
+n18 -> n20[color="brown",fontcolor="black",label="P2_has_type\nw=0.99822"]
+n19 -> n21[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.995741"]
+n18 -> n22[color="brown",fontcolor="black",label="P130i_features_are_also_found_on\nw=100.010002"]
+n19 -> n23[color="brown",fontcolor="black",label="P131_is_identified_by\nw=100.0"]
+n21 -> n24[color="brown",fontcolor="black",label="label\nw=100.0"]
+n18 -> n25[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n23 -> n26[color="brown",fontcolor="black",label="label\nw=100.0"]
+n21 -> n27[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n20 -> n28[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n22 -> n29[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n31 -> n32[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.995691"]
+n33 -> n31[color="brown",fontcolor="black",label="P129_is_about\nw=0.99822"]
+n33 -> n34[color="brown",fontcolor="black",label="P2_has_type\nw=0.99822"]
+n33 -> n35[color="brown",fontcolor="black",label="P130i_features_are_also_found_on\nw=100.010002"]
+n33 -> n36[color="brown",fontcolor="black",label="P106i_forms_part_of\nw=100.010002"]
+n32 -> n37[color="brown",fontcolor="black",label="label\nw=100.0"]
+n33 -> n38[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n36 -> n39[color="brown",fontcolor="black",label="label\nw=100.0"]
+n32 -> n40[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n34 -> n41[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n35 -> n42[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n44 -> n45[color="brown",fontcolor="black",label="P129_is_about\nw=0.998223"]
+n44 -> n46[color="brown",fontcolor="black",label="P2_has_type\nw=0.99822"]
+n45 -> n47[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.995741"]
+n44 -> n48[color="brown",fontcolor="black",label="P130i_features_are_also_found_on\nw=100.010002"]
+n44 -> n49[color="brown",fontcolor="black",label="P106i_forms_part_of\nw=100.010002"]
+n47 -> n50[color="brown",fontcolor="black",label="label\nw=100.0"]
+n44 -> n51[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n49 -> n52[color="brown",fontcolor="black",label="label\nw=100.0"]
+n47 -> n53[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n46 -> n54[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n48 -> n55[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n57 -> n58[color="brown",fontcolor="black",label="P129_is_about\nw=0.999993"]
+n57 -> n59[color="brown",fontcolor="black",label="P2_has_type\nw=0.99822"]
+n58 -> n60[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.999896"]
+n57 -> n61[color="brown",fontcolor="black",label="P130i_features_are_also_found_on\nw=100.010002"]
+n57 -> n62[color="brown",fontcolor="black",label="P106i_forms_part_of\nw=100.010002"]
+n60 -> n63[color="brown",fontcolor="black",label="label\nw=100.0"]
+n57 -> n64[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n62 -> n65[color="brown",fontcolor="black",label="label\nw=100.0"]
+n60 -> n66[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n59 -> n67[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n61 -> n68[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n70 -> n71[color="brown",fontcolor="black",label="P92i_was_brought_into_existence_by\nw=0.999928"]
+n70 -> n72[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.999896"]
+n70 -> n73[color="brown",fontcolor="black",label="P1_is_identified_by\nw=0.999486"]
+n73 -> n74[color="brown",fontcolor="black",label="P2_has_type\nw=0.965755"]
+n70 -> n75[color="brown",fontcolor="black",label="P137_exemplifies\nw=100.010002"]
+n71 -> n76[color="brown",fontcolor="black",label="P129i_is_subject_of\nw=100.010002"]
+n72 -> n77[color="brown",fontcolor="black",label="label\nw=100.0"]
+n76 -> n78[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n73 -> n79[color="brown",fontcolor="black",label="label\nw=100.0"]
+n72 -> n80[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n74 -> n81[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n75 -> n82[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n84 -> n85[color="brown",fontcolor="black",label="P92i_was_brought_into_existence_by\nw=0.999928"]
+n84 -> n86[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.999896"]
+n84 -> n87[color="brown",fontcolor="black",label="P131_is_identified_by\nw=0.999976"]
+n87 -> n88[color="brown",fontcolor="black",label="P2_has_type\nw=0.965755"]
+n84 -> n89[color="brown",fontcolor="black",label="P137_exemplifies\nw=100.010002"]
+n85 -> n90[color="brown",fontcolor="black",label="P129i_is_subject_of\nw=100.010002"]
+n86 -> n91[color="brown",fontcolor="black",label="label\nw=100.0"]
+n90 -> n92[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n87 -> n93[color="brown",fontcolor="black",label="label\nw=100.0"]
+n86 -> n94[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n88 -> n95[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n89 -> n96[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n98 -> n99[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.995691"]
+n98 -> n100[color="brown",fontcolor="black",label="P131_is_identified_by\nw=0.992637"]
+n101 -> n98[color="brown",fontcolor="black",label="P138_represents\nw=0.999308"]
+n101 -> n102[color="brown",fontcolor="black",label="P2_has_type\nw=0.983207"]
+n101 -> n103[color="brown",fontcolor="black",label="P129i_is_subject_of\nw=100.010002"]
+n101 -> n104[color="brown",fontcolor="black",label="P130i_features_are_also_found_on\nw=100.010002"]
+n99 -> n105[color="brown",fontcolor="black",label="label\nw=100.0"]
+n103 -> n106[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n100 -> n107[color="brown",fontcolor="black",label="label\nw=100.0"]
+n99 -> n108[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n102 -> n109[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n104 -> n110[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n112 -> n113[color="brown",fontcolor="black",label="P138_represents\nw=0.999308"]
+n112 -> n114[color="brown",fontcolor="black",label="P2_has_type\nw=0.983207"]
+n113 -> n115[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.995741"]
+n113 -> n116[color="brown",fontcolor="black",label="P131_is_identified_by\nw=0.992951"]
+n112 -> n117[color="brown",fontcolor="black",label="P129i_is_subject_of\nw=100.010002"]
+n112 -> n118[color="brown",fontcolor="black",label="P130i_features_are_also_found_on\nw=100.010002"]
+n115 -> n119[color="brown",fontcolor="black",label="label\nw=100.0"]
+n117 -> n120[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n116 -> n121[color="brown",fontcolor="black",label="label\nw=100.0"]
+n115 -> n122[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n114 -> n123[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n118 -> n124[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n126 -> n127[color="brown",fontcolor="black",label="P138_represents\nw=0.999308"]
+n126 -> n128[color="brown",fontcolor="black",label="P2_has_type\nw=0.983207"]
+n127 -> n129[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.995741"]
+n127 -> n130[color="brown",fontcolor="black",label="P1_is_identified_by\nw=0.995133"]
+n126 -> n131[color="brown",fontcolor="black",label="P129i_is_subject_of\nw=100.010002"]
+n126 -> n132[color="brown",fontcolor="black",label="P130i_features_are_also_found_on\nw=100.010002"]
+n129 -> n133[color="brown",fontcolor="black",label="label\nw=100.0"]
+n131 -> n134[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n130 -> n135[color="brown",fontcolor="black",label="label\nw=100.0"]
+n129 -> n136[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n128 -> n137[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n132 -> n138[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n140 -> n141[color="brown",fontcolor="black",label="P107i_is_current_or_former_member_of\nw=0.995691"]
+n142 -> n140[color="brown",fontcolor="black",label="P129_is_about\nw=0.99822"]
+n142 -> n143[color="brown",fontcolor="black",label="P129_is_about\nw=0.998223"]
+n142 -> n144[color="brown",fontcolor="black",label="P2_has_type\nw=0.99822"]
+n142 -> n145[color="brown",fontcolor="black",label="P130i_features_are_also_found_on\nw=100.010002"]
+n143 -> n146[color="brown",fontcolor="black",label="P131_is_identified_by\nw=100.0"]
+n141 -> n147[color="brown",fontcolor="black",label="label\nw=100.0"]
+n142 -> n148[color="brown",fontcolor="black",label="P3_has_note\nw=100.0"]
+n146 -> n149[color="brown",fontcolor="black",label="label\nw=100.0"]
+n141 -> n150[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n144 -> n151[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+n145 -> n152[color="brown",fontcolor="black",label="classLink\nw=100.0"]
+}
